@@ -2001,7 +2001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 53.34 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2129,8 +2129,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c5ad809-07b7-419b-9cb9-7f179e64fec6")
@@ -2501,7 +2501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 53.34 40.64 0)
 			(hide yes)
 			(show_name no)
