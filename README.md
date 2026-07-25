@@ -9,10 +9,12 @@ Official team repository for the development of a fully autonomous Mini Sumo rob
 
 ## 📂 Project Structure
 
-* 📁 **`3D_Design/`**: CAD models for the chassis, front scoop, and structural components.
-* 📁 **`PCB/`**: Schematic design and PCB routing (KiCad).
-* 📁 **`Firmware/`**: C source code for control logic, sensor reading, and combat strategy implementation on the ESP32.
-* 📁 **`Docs/`**: Official rules, component datasheets, and architecture diagrams.
+## 📂 Project Structure
+
+* 📁 [**`3D_Design/`**](./3D_Design): CAD models for the chassis, front scoop, and structural components.
+* 📁 [**`PCB/`**](./PCB): Schematic design and PCB routing (KiCad).
+* 📁 [**`Firmware/`**](./Firmware): C source code for control logic, sensor reading, and combat strategy implementation on the ESP32.
+* 📁 [**`Docs/`**](./Docs): Official rules, component datasheets, and architecture diagrams.
 
 ## 🛠️ Engineering Specifications
 
