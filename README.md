@@ -7,7 +7,6 @@
 
 Official team repository for the development of a fully autonomous Mini Sumo robot, designed to compete under the official rules of the 10x10 cm category.
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
