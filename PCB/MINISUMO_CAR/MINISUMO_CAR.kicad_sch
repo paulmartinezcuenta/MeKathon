@@ -2738,6 +2738,18 @@
 		(uuid "3de0b168-e0c9-4322-a2de-97bf8f5890f6")
 	)
 	(rectangle
+		(start 142.24 16.51)
+		(end 177.8 21.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4c07d68c-d960-44fa-8d80-507397b17b20")
+	)
+	(rectangle
 		(start 15.24 44.45)
 		(end 68.58 156.21)
 		(stroke
@@ -2748,6 +2760,18 @@
 			(type none)
 		)
 		(uuid "541b5306-c984-4588-bee0-c63a58d8f919")
+	)
+	(rectangle
+		(start 142.24 16.51)
+		(end 177.8 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "73ce8328-80b9-4185-829b-392490028cc0")
 	)
 	(rectangle
 		(start 68.58 44.45)
@@ -3017,7 +3041,7 @@
 	)
 	(text "Push init"
 		(exclude_from_sim no)
-		(at 164.592 19.05 0)
+		(at 161.036 19.304 0)
 		(effects
 			(font
 				(size 3.048 3.048)
