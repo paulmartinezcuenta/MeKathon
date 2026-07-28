@@ -398,6 +398,301 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:XY-XHB2.54-3A11"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1685,6 +1980,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
@@ -2207,6 +2666,30 @@
 		)
 	)
 	(rectangle
+		(start 68.58 102.87)
+		(end 142.24 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0597eb8e-8c45-4d0c-b4c4-0160b9b1c8ec")
+	)
+	(rectangle
+		(start 88.9 110.49)
+		(end 109.22 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1b73930c-8225-4ad6-9de3-311401971e46")
+	)
+	(rectangle
 		(start 15.24 16.51)
 		(end 68.58 44.45)
 		(stroke
@@ -2217,6 +2700,18 @@
 			(type none)
 		)
 		(uuid "1c37bd2f-d6d3-415e-9403-3050842f3070")
+	)
+	(rectangle
+		(start 68.58 110.49)
+		(end 88.9 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "36dde716-0c6f-4c8d-9e9d-f14d9f0c54fc")
 	)
 	(rectangle
 		(start 68.58 44.45)
@@ -2244,7 +2739,7 @@
 	)
 	(rectangle
 		(start 15.24 44.45)
-		(end 68.58 133.35)
+		(end 68.58 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -2291,6 +2786,54 @@
 		(uuid "9380ffe4-94d1-4fb3-a713-6af56e32a92e")
 	)
 	(rectangle
+		(start 68.58 110.49)
+		(end 142.24 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a2b9b431-d4ec-426f-b711-df062785c987")
+	)
+	(rectangle
+		(start 109.22 110.49)
+		(end 129.54 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a39518e0-072c-4032-a1ef-c0de005941de")
+	)
+	(rectangle
+		(start 68.58 133.35)
+		(end 88.9 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "afa6ca7d-5405-4d8a-bd88-9076aaab0a3c")
+	)
+	(rectangle
+		(start 88.9 133.35)
+		(end 109.22 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ceaaa0d6-e679-495a-bae0-ad92a4d5272d")
+	)
+	(rectangle
 		(start 68.58 16.51)
 		(end 142.24 44.45)
 		(stroke
@@ -2302,9 +2845,21 @@
 		)
 		(uuid "f06353ec-7c23-4297-9177-7f99332424c0")
 	)
+	(rectangle
+		(start 109.22 133.35)
+		(end 129.54 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fbbeba59-12de-4b21-b953-1e9cbfd76784")
+	)
 	(text "Sensores ultra sonico\n"
 		(exclude_from_sim no)
-		(at 102.362 47.752 0)
+		(at 105.41 47.752 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -2334,6 +2889,30 @@
 		)
 		(uuid "2997783f-80cb-4263-87d9-dba25c0fe9ea")
 	)
+	(text "PUENTE H\n"
+		(exclude_from_sim no)
+		(at 104.394 106.68 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+		)
+		(uuid "2fe05911-a889-4eee-8d5c-ffadb4d40fca")
+	)
+	(text "PUENTE H INB1\n"
+		(exclude_from_sim no)
+		(at 99.568 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "39c8ac1d-14b6-4639-995c-c9412df6cb30")
+	)
 	(text "Battery V"
 		(exclude_from_sim no)
 		(at 40.386 19.05 0)
@@ -2348,7 +2927,7 @@
 	)
 	(text "Sensores infrarojos"
 		(exclude_from_sim no)
-		(at 95.758 19.05 0)
+		(at 104.648 19.05 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -2367,6 +2946,42 @@
 			)
 		)
 		(uuid "7af07c79-a8f7-4291-ab3f-d2b367ec103b")
+	)
+	(text "PUENTE H INA2"
+		(exclude_from_sim no)
+		(at 119.634 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8769994b-654d-4b25-8a85-2ca4d2dc9803")
+	)
+	(text "Linea GND \npuente H"
+		(exclude_from_sim no)
+		(at 136.398 152.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8835c9bd-f235-4d0b-ab27-e6d85d4b8616")
+	)
+	(text "PUENTE H INA1"
+		(exclude_from_sim no)
+		(at 99.314 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "88625c36-7fd8-4b19-b36c-d54aa02d7c36")
 	)
 	(text "ULTRA_S2\n"
 		(exclude_from_sim no)
@@ -2388,6 +3003,30 @@
 		)
 		(uuid "9215fa23-f72f-4a49-bce5-f890b4e79059")
 	)
+	(text "Linea VCC\npuente H"
+		(exclude_from_sim no)
+		(at 136.144 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a951f966-d486-45b6-8404-3697d9623862")
+	)
+	(text "Push init"
+		(exclude_from_sim no)
+		(at 164.592 19.05 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+		)
+		(uuid "ac022848-9bea-48f7-8e11-aea3aed44f05")
+	)
 	(text "INFRAROJO2\n"
 		(exclude_from_sim no)
 		(at 128.27 25.4 0)
@@ -2403,12 +3042,47 @@
 		(at 40.64 48.006 0)
 		(effects
 			(font
-				(size 3.048 3.048)
-				(thickness 0.061)
-				(bold yes)
+				(size 2.286 2.286)
+				(thickness 0.1905)
 			)
 		)
 		(uuid "cdd37f56-7647-4dd8-a6bd-da5287129a04")
+	)
+	(text "PWM del MOTOR2\n"
+		(exclude_from_sim no)
+		(at 78.486 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d52c50b3-97c4-43ca-a491-fe615e41eea8")
+	)
+	(text "PWM del MOTOR1\n"
+		(exclude_from_sim no)
+		(at 78.994 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dd928962-31dd-4031-937b-0d6954ba2d8d")
+	)
+	(text "PUENTE H INB2\n"
+		(exclude_from_sim no)
+		(at 120.904 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e1a88ab2-0433-4a95-9e4d-2957899ebb5f")
 	)
 	(junction
 		(at 93.98 67.31)
@@ -2441,10 +3115,26 @@
 		(uuid "c4d4e7a2-daec-42ca-a3b2-442a85ab6d33")
 	)
 	(junction
-		(at 43.18 125.73)
+		(at 153.67 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f03bb77c-fa78-427c-8fca-9ab99118e4ab")
+		(uuid "ec43fa16-68af-4b2a-a198-fc70e3ada07e")
+	)
+	(junction
+		(at 43.18 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e3c97b-fb5c-4a52-a3ec-02ddd4525ab1")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07762120-8895-4399-945b-d0d13bdf5d57")
 	)
 	(wire
 		(pts
@@ -2458,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 31.75) (xy 118.11 31.75)
+			(xy 123.19 31.75) (xy 119.38 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2488,6 +3178,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 148.59) (xy 102.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c06d20e-46ca-4688-ab82-dbdd28c4b0f6")
+	)
+	(wire
+		(pts
 			(xy 73.66 77.47) (xy 80.01 77.47)
 		)
 		(stroke
@@ -2498,13 +3198,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 31.75) (xy 118.11 40.64)
+			(xy 119.38 31.75) (xy 119.38 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e126e24-7199-4d03-93a2-e84addf1a830")
+	)
+	(wire
+		(pts
+			(xy 152.4 24.13) (xy 153.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30188e98-5ecd-4a51-b51a-db6e13cc58d0")
+	)
+	(wire
+		(pts
+			(xy 116.84 148.59) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dc41bb-a4a8-4c35-b494-f202c97ad340")
 	)
 	(wire
 		(pts
@@ -2528,13 +3248,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 118.11 40.64)
+			(xy 104.14 40.64) (xy 119.38 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5164505e-4fc7-4a28-90c8-492e8ebb6d2e")
+	)
+	(wire
+		(pts
+			(xy 73.66 125.73) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b31dd6-26de-46dc-adc5-e250dce9b3bd")
 	)
 	(wire
 		(pts
@@ -2548,13 +3278,33 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 43.18 125.73)
+			(xy 73.66 144.78) (xy 73.66 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570ba961-cff0-4c21-9155-c140eb082fe8")
+	)
+	(wire
+		(pts
+			(xy 41.91 123.19) (xy 43.18 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60306ecd-03b1-4046-8b3c-f600e73458d2")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 158.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629becf0-e01a-4955-99e5-1e85804e71e2")
 	)
 	(wire
 		(pts
@@ -2608,6 +3358,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 120.65) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dba5db-c2d9-4b26-a9ca-6475df60d696")
+	)
+	(wire
+		(pts
+			(xy 168.91 34.29) (xy 168.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd2a825-2f85-43a1-9334-9287b1381a8a")
+	)
+	(wire
+		(pts
 			(xy 77.47 74.93) (xy 80.01 74.93)
 		)
 		(stroke
@@ -2638,13 +3408,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 125.73) (xy 43.18 125.73)
+			(xy 44.45 123.19) (xy 43.18 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f09519a-afc8-4b35-a8f2-d304c51a0d75")
+	)
+	(wire
+		(pts
+			(xy 73.66 148.59) (xy 81.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e3bf0d-1b1c-42a9-8deb-499a3b53fb50")
 	)
 	(wire
 		(pts
@@ -2668,6 +3448,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 120.65) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9d8381-7719-42c4-8a1c-8fc3bfd7716a")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 101.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c3ffa2-338e-4db4-be54-e4526bd0deb7")
+	)
+	(wire
+		(pts
 			(xy 120.65 77.47) (xy 128.27 77.47)
 		)
 		(stroke
@@ -2675,6 +3475,66 @@
 			(type default)
 		)
 		(uuid "aa5e1069-35bc-407c-a5ca-409bfc46d8c9")
+	)
+	(wire
+		(pts
+			(xy 115.57 120.65) (xy 115.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3e0ff6-66d7-48f2-b564-2bcd1787197d")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 153.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc5b5b6-922a-4e16-88ae-41cabf9f09ea")
+	)
+	(wire
+		(pts
+			(xy 43.18 123.19) (xy 43.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0edbc6e-ee2a-474d-b0db-553ceca09f06")
+	)
+	(wire
+		(pts
+			(xy 95.25 144.78) (xy 95.25 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9b612c-1636-4a70-9a2b-1b2daaccc7f6")
+	)
+	(wire
+		(pts
+			(xy 135.89 143.51) (xy 135.89 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb42da71-889d-45a5-a733-4c8994649827")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 73.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21886e9-e4dd-4248-b3e2-994f1d348846")
 	)
 	(wire
 		(pts
@@ -2705,6 +3565,16 @@
 			(type default)
 		)
 		(uuid "cc3e45e9-081b-4b09-a0e0-3f1719440a20")
+	)
+	(wire
+		(pts
+			(xy 116.84 144.78) (xy 116.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db70e230-0536-4786-be01-6fedcbbcf760")
 	)
 	(wire
 		(pts
@@ -2748,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 121.92) (xy 44.45 125.73)
+			(xy 44.45 121.92) (xy 44.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 121.92) (xy 41.91 125.73)
+			(xy 41.91 121.92) (xy 41.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3139,6 +4009,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1de1986d-4a5f-428d-bdbe-3abc42c101c6")
+		(property "Reference" "PWM2"
+			(at 73.66 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "PWM"
+			(at 73.914 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 78.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "569a7a34-e14e-459e-9aa8-bb773ed4f9d2")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "PWM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "235f8487-1e2b-4c4b-9002-9f07e966f8e7")
+		(property "Reference" "GND1"
+			(at 135.89 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PH_GND"
+			(at 136.144 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 140.97 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24deffa0-faeb-4cb2-a1c1-63c77b0cfbc8")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:XY-XHB2.54-4A11")
 		(at 132.08 78.74 0)
 		(unit 1)
@@ -3452,6 +4476,84 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b583dae-f78b-43ac-b393-6a176d353731")
+		(property "Reference" "INB1"
+			(at 95.25 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INB1"
+			(at 95.504 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 100.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "984d3ab0-d8b9-4e51-b28e-3a3903e8804a")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "INB1")
 					(unit 1)
 				)
 			)
@@ -4129,6 +5231,239 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 144.78 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5543882c-023a-48bf-8d4e-89bc0d055c23")
+		(property "Reference" "#PWR0102"
+			(at 135.89 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 148.336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1b5dd48-93f8-4a7b-aa25-2b87570fcec4")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57298e49-32a3-40c3-a524-6d13489e9b13")
+		(property "Reference" "INA1"
+			(at 95.25 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA1"
+			(at 95.504 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a56bf55d-fea1-495f-9196-76080dd7400b")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "INA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a561a9c-8883-4a5f-8705-312608f7013a")
+		(property "Reference" "#PWR020"
+			(at 147.32 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.844 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b99097b-4ae2-43c8-ba41-b0b6e73adf57")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 57.15 29.21 0)
 		(unit 1)
@@ -4207,6 +5542,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f6fc3ad-e4dc-470e-8f64-ee9554da662c")
+		(property "Reference" "#PWR021"
+			(at 168.91 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d035ac5-7489-46c9-86b8-657e76dbdb2a")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 77.47 57.15 0)
 		(unit 1)
@@ -4279,6 +5691,84 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6161a137-1e50-4416-baba-872f883ebfa0")
+		(property "Reference" "INA2"
+			(at 115.57 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA2"
+			(at 115.824 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80967b27-1691-4988-a96b-808176cb811c")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "INA2")
 					(unit 1)
 				)
 			)
@@ -4964,7 +6454,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 125.73 0)
+		(at 43.18 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4974,7 +6464,7 @@
 		(dnp no)
 		(uuid "8cf469c2-b675-4d5d-af6b-fd6ef06384a4")
 		(property "Reference" "#PWR07"
-			(at 43.18 132.08 0)
+			(at 43.18 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +6475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 129.286 0)
+			(at 43.18 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4995,7 +6485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 125.73 0)
+			(at 43.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,7 +6496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 125.73 0)
+			(at 43.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,7 +6507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 125.73 0)
+			(at 43.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,6 +6524,84 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 152.4 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d8e2f8a-1591-4677-95d1-1e368093f16b")
+		(property "Reference" "#PWR019"
+			(at 156.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3+"
+			(at 149.86 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "616cd005-00ee-48c4-80ef-2fbe20ede0cb")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5317,6 +6885,160 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 116.84 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9faa666f-a1fb-4f98-ba70-706ed4d3ce25")
+		(property "Reference" "INB2"
+			(at 116.84 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INB2"
+			(at 117.094 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 121.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7bbdf76-c0e1-4376-819b-b3e1d3053fbb")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "INB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0928f17-789c-47be-a94b-a2eafb261470")
+		(property "Reference" "VCC1"
+			(at 135.89 114.046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M_VCC"
+			(at 136.144 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 140.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a4fd877-d05b-4ec2-955e-3ad7a0690060")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "VCC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 57.15 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -5388,6 +7110,87 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc945284-61ef-4e42-a216-5aeff3615a35")
+		(property "Reference" "R1"
+			(at 152.4 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.892 29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.892 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd0cfef4-74a9-42ba-b3d3-b644f5c4e12a")
+		)
+		(pin "2"
+			(uuid "bc8040a8-ef73-416a-91cc-04f634d4d87e")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5514,6 +7317,243 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 163.83 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d99188ac-733f-4a67-b87a-c8e597efa3da")
+		(property "Reference" "SW1"
+			(at 163.83 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 163.83 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "995e726f-772c-42c0-9b15-b8009b86ab65")
+		)
+		(pin "2"
+			(uuid "9af9d4c2-8345-4e9e-9a67-d25b66b4baae")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3b947a7-8fc4-4388-aa87-e3ad0b6b20e2")
+		(property "Reference" "C1"
+			(at 152.654 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 155.956 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.6352 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8e36a31-5e06-4d58-82b2-32f00c70fe2c")
+		)
+		(pin "2"
+			(uuid "8a31fc6b-4b1f-42a9-9bb5-baa866e9d8a9")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 135.89 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e864dc0a-0e18-41f1-9060-99b4d706a9ed")
+		(property "Reference" "#PWR018"
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 135.382 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4993af05-de7a-47ee-ac6c-6462df87a460")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 82.55 62.23 270)
 		(unit 1)
@@ -5586,6 +7626,84 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb717672-c4fa-45ea-bad4-c5066baee661")
+		(property "Reference" "PWM1"
+			(at 73.66 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "PWM"
+			(at 73.914 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 78.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bea1b794-e807-4b32-9a8c-2a1455fd1a64")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "PWM1")
 					(unit 1)
 				)
 			)
