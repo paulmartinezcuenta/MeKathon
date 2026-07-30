@@ -553,6 +553,339 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1980,6 +2313,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM7805_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805_TO220"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2739,7 +3229,7 @@
 	)
 	(rectangle
 		(start 142.24 16.51)
-		(end 177.8 21.59)
+		(end 196.85 21.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -2762,8 +3252,20 @@
 		(uuid "541b5306-c984-4588-bee0-c63a58d8f919")
 	)
 	(rectangle
+		(start 142.24 44.45)
+		(end 198.12 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "69a76bda-6517-49b1-b9ff-fe2404178e9f")
+	)
+	(rectangle
 		(start 142.24 16.51)
-		(end 177.8 44.45)
+		(end 196.85 44.45)
 		(stroke
 			(width 0)
 			(type default)
@@ -2772,6 +3274,18 @@
 			(type none)
 		)
 		(uuid "73ce8328-80b9-4185-829b-392490028cc0")
+	)
+	(rectangle
+		(start 142.24 44.45)
+		(end 198.12 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "84d727e6-e81e-4097-8287-4ac5b00fdea4")
 	)
 	(rectangle
 		(start 68.58 44.45)
@@ -2936,6 +3450,18 @@
 			)
 		)
 		(uuid "39c8ac1d-14b6-4639-995c-c9412df6cb30")
+	)
+	(text "regulador\n"
+		(exclude_from_sim no)
+		(at 169.418 47.752 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+		)
+		(uuid "39c9f4c5-7560-4e00-ac6e-0950833d40ea")
 	)
 	(text "Battery V"
 		(exclude_from_sim no)
@@ -3109,10 +3635,34 @@
 		(uuid "e1a88ab2-0433-4a95-9e4d-2957899ebb5f")
 	)
 	(junction
-		(at 93.98 67.31)
+		(at 179.07 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "082d1234-c02d-4dc5-92bc-c3af1d757e92")
+		(uuid "255b9bf7-cd12-471d-8494-0c04f45c9abc")
+	)
+	(junction
+		(at 156.21 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3c0e6a-25ae-4fd1-a830-6b8a7c3c9c99")
+	)
+	(junction
+		(at 151.13 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1dc0e0-6289-4e09-8931-8da8eb5f5585")
+	)
+	(junction
+		(at 161.29 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6410d78d-55d5-411b-ad16-283ea9091ab2")
+	)
+	(junction
+		(at 104.14 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d5e61a6-e36f-4300-bc06-ffa5737544ae")
 	)
 	(junction
 		(at 109.22 67.31)
@@ -3121,16 +3671,16 @@
 		(uuid "90839f30-be23-4235-bc90-8279cc554852")
 	)
 	(junction
-		(at 104.14 35.56)
+		(at 76.2 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4e557be-ea40-4710-a413-83673c64c1ce")
+		(uuid "a7858fb2-71e4-4fb3-b370-8ba5ea47ea52")
 	)
 	(junction
-		(at 77.47 67.31)
+		(at 184.15 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c16c793e-4046-416b-bed2-77ecd20e9e40")
+		(uuid "abfdde02-11a0-45e3-93ff-c72ebd9a6767")
 	)
 	(junction
 		(at 25.4 39.37)
@@ -3150,6 +3700,22 @@
 		(color 0 0 0 0)
 		(uuid "f7e3c97b-fb5c-4a52-a3ec-02ddd4525ab1")
 	)
+	(junction
+		(at 93.98 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96db41b-7d0c-4949-a13c-2fcf271b3ea1")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b4a2cc-337a-4a62-b807-713384930d91")
+	)
 	(wire
 		(pts
 			(xy 115.57 125.73) (xy 121.92 125.73)
@@ -3162,13 +3728,43 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 93.98 67.31)
+			(xy 161.29 77.47) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "120a5526-b726-4f73-a481-a5ddb553fa4c")
+		(uuid "0889b4d1-e413-4739-b740-041210ea16fb")
+	)
+	(wire
+		(pts
+			(xy 22.86 88.9) (xy 29.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbe948f-3b66-43a7-b1c0-56f5ebf0b200")
+	)
+	(wire
+		(pts
+			(xy 22.86 106.68) (xy 29.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c49d1f6-c314-4983-bd94-ee021ad9b50d")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca424c1-01c2-4a0e-9da7-098a1a420fb4")
 	)
 	(wire
 		(pts
@@ -3182,6 +3778,36 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 81.28) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a664d9-a91e-48a8-9741-2d906b492b04")
+	)
+	(wire
+		(pts
+			(xy 22.86 86.36) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221bb47a-03ab-4525-87bb-72942949bdc9")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 69.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243a4264-0a04-4364-9183-a088178521c2")
+	)
+	(wire
+		(pts
 			(xy 104.14 31.75) (xy 107.95 31.75)
 		)
 		(stroke
@@ -3189,16 +3815,6 @@
 			(type default)
 		)
 		(uuid "2816efec-3887-41c9-aa5c-d05a000b50cd")
-	)
-	(wire
-		(pts
-			(xy 77.47 74.93) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b642653-c6ea-4c8e-801d-2ffec7c21e0e")
 	)
 	(wire
 		(pts
@@ -3242,6 +3858,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 60.96) (xy 82.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3106723e-0f08-46cf-89cd-41b421ace536")
+	)
+	(wire
+		(pts
 			(xy 116.84 148.59) (xy 124.46 148.59)
 		)
 		(stroke
@@ -3249,6 +3875,36 @@
 			(type default)
 		)
 		(uuid "33dc41bb-a4a8-4c35-b494-f202c97ad340")
+	)
+	(wire
+		(pts
+			(xy 22.86 99.06) (xy 29.21 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a98f13b-646b-448e-a699-f5ae378aec83")
+	)
+	(wire
+		(pts
+			(xy 22.86 101.6) (xy 29.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ee910e-6ae0-4428-8d8c-915b056a05bf")
+	)
+	(wire
+		(pts
+			(xy 156.21 80.01) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ce27d2-81f6-4d00-af4a-43f0da1b9790")
 	)
 	(wire
 		(pts
@@ -3262,13 +3918,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 62.23) (xy 81.28 62.23)
+			(xy 22.86 109.22) (xy 29.21 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44cf8159-788d-4664-92f2-041107dc0aee")
+		(uuid "49d54707-d716-4585-87b2-81bb481a33c9")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 184.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3b75c8-9814-4a27-9c5d-37ca35573aaf")
+	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd06ea0-46ea-4789-bfe3-0ed3e5f24864")
 	)
 	(wire
 		(pts
@@ -3312,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2fdbb3-ccd5-40b5-b455-31a8939f0357")
+	)
+	(wire
+		(pts
 			(xy 41.91 123.19) (xy 43.18 123.19)
 		)
 		(stroke
@@ -3329,16 +4015,6 @@
 			(type default)
 		)
 		(uuid "629becf0-e01a-4955-99e5-1e85804e71e2")
-	)
-	(wire
-		(pts
-			(xy 104.14 31.75) (xy 104.14 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d4fce7-b43f-4193-bc17-873c67df5b05")
 	)
 	(wire
 		(pts
@@ -3382,6 +4058,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746a62a8-acbe-4c1c-b98a-2b9c154e0de4")
+	)
+	(wire
+		(pts
+			(xy 22.86 93.98) (xy 29.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781430d1-c404-429d-82ff-9a92a0e24877")
+	)
+	(wire
+		(pts
 			(xy 135.89 120.65) (xy 135.89 119.38)
 		)
 		(stroke
@@ -3402,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 74.93) (xy 80.01 74.93)
+			(xy 76.2 74.93) (xy 80.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3442,6 +4138,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 72.39) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f60ec6a-07ed-4c3e-8c5f-be988300ef50")
+	)
+	(wire
+		(pts
 			(xy 73.66 148.59) (xy 81.28 148.59)
 		)
 		(stroke
@@ -3452,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 96.52) (xy 29.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b7c37e-6a0c-44d0-892c-5f343c901860")
+	)
+	(wire
+		(pts
 			(xy 95.25 74.93) (xy 93.98 74.93)
 		)
 		(stroke
@@ -3459,6 +4175,16 @@
 			(type default)
 		)
 		(uuid "9ba9f18e-ab97-4322-9d91-dfcee1a192ba")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 76.2 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e16bc4e-45e5-4468-a834-3da7b25ff3d9")
 	)
 	(wire
 		(pts
@@ -3479,6 +4205,16 @@
 			(type default)
 		)
 		(uuid "9f9d8381-7719-42c4-8a1c-8fc3bfd7716a")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 179.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52b505a-9d0c-4d64-b4c8-ce3d85c20ecf")
 	)
 	(wire
 		(pts
@@ -3512,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 72.39) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad069f1c-2d73-4d86-a4be-92ebd832aed1")
+	)
+	(wire
+		(pts
 			(xy 153.67 33.02) (xy 153.67 31.75)
 		)
 		(stroke
@@ -3522,6 +4268,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 64.77) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af72d253-7ac0-4978-8d6a-8529de05536e")
+	)
+	(wire
+		(pts
 			(xy 43.18 123.19) (xy 43.18 124.46)
 		)
 		(stroke
@@ -3529,6 +4285,16 @@
 			(type default)
 		)
 		(uuid "b0edbc6e-ee2a-474d-b0db-553ceca09f06")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a9420a-7ff2-4d30-a5e0-fed837c56018")
 	)
 	(wire
 		(pts
@@ -3572,6 +4338,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 35.56) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fc7353-6a42-48c1-87b6-243e7a41cdf1")
+	)
+	(wire
+		(pts
 			(xy 73.66 80.01) (xy 80.01 80.01)
 		)
 		(stroke
@@ -3589,6 +4365,26 @@
 			(type default)
 		)
 		(uuid "cc3e45e9-081b-4b09-a0e0-3f1719440a20")
+	)
+	(wire
+		(pts
+			(xy 22.86 91.44) (xy 29.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd37027e-6400-4900-b6bd-c7d33fdaccec")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d192e4d9-b856-4d8c-a302-0d5f42b4140b")
 	)
 	(wire
 		(pts
@@ -3632,13 +4428,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 35.56) (xy 104.14 35.56)
+			(xy 104.14 35.56) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea74c3be-6d8f-48a7-9906-429b62885741")
+		(uuid "e718ae10-02be-4d2c-bb4a-6faf7c2073d7")
+	)
+	(wire
+		(pts
+			(xy 22.86 104.14) (xy 29.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9431f07-f113-4d3b-82ad-ab0a26685d3d")
 	)
 	(wire
 		(pts
@@ -3652,6 +4458,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05260c0-df97-45b6-9694-31660d22f4e3")
+	)
+	(wire
+		(pts
 			(xy 104.14 29.21) (xy 107.95 29.21)
 		)
 		(stroke
@@ -3659,6 +4475,16 @@
 			(type default)
 		)
 		(uuid "f55f8376-e72d-45e9-93e4-a1b72237fd47")
+	)
+	(wire
+		(pts
+			(xy 44.45 69.85) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b0b015-f53a-4f74-8c23-3a05d4439150")
 	)
 	(wire
 		(pts
@@ -3692,13 +4518,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 35.56) (xy 104.14 40.64)
+			(xy 104.14 31.75) (xy 104.14 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe433832-9bc7-4086-b6bb-b09145f0d7a8")
+	)
+	(label "ECHO1"
+		(at 22.86 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "056b686b-4f6a-4ef4-ad5e-9185b8fa6130")
 	)
 	(label "ECHO"
 		(at 73.66 80.01 0)
@@ -3709,6 +4545,16 @@
 			(justify left bottom)
 		)
 		(uuid "0b8a4adc-76c8-4076-8c3a-35ab84abc529")
+	)
+	(label "TRIG3"
+		(at 22.86 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "123cc2a7-e76a-4dd9-a984-321ab9dad58b")
 	)
 	(label "OUT"
 		(at 104.14 29.21 0)
@@ -3740,6 +4586,16 @@
 		)
 		(uuid "2b670c97-182a-4016-9582-521d1adece02")
 	)
+	(label "OUT1"
+		(at 22.86 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c68aed2-5522-43d8-8754-4cbe82834762")
+	)
 	(label "TRIG1"
 		(at 88.9 77.47 0)
 		(effects
@@ -3749,6 +4605,36 @@
 			(justify left bottom)
 		)
 		(uuid "448c06fb-2f0d-4fee-8a19-75dd7bcb27ec")
+	)
+	(label "TRIG1"
+		(at 22.86 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51c23315-e6dd-42e3-a735-68da2b9ee544")
+	)
+	(label "TRIG"
+		(at 22.86 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56b62ce7-b349-4cf4-9d49-baa05ab3219c")
+	)
+	(label "ECHO3"
+		(at 22.86 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c04681e-acc5-43a9-9eb0-72d13a2524df")
 	)
 	(label "TRIG"
 		(at 73.66 77.47 0)
@@ -3770,6 +4656,36 @@
 		)
 		(uuid "a2e775b9-f2f1-425e-9337-9a23630373ed")
 	)
+	(label "TRIG2"
+		(at 22.86 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acf290a1-00f2-4b33-8ef0-c23672ef36ca")
+	)
+	(label "ECHO2"
+		(at 22.86 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af8f015d-f16c-48c3-8e84-a92a8e187704")
+	)
+	(label "OUT"
+		(at 22.86 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba06a970-9a5c-4984-8457-2132e26c5156")
+	)
 	(label "ECHO3"
 		(at 120.65 80.01 0)
 		(effects
@@ -3779,6 +4695,16 @@
 			(justify left bottom)
 		)
 		(uuid "bba78232-6711-447c-bcd0-d04c2a5e20cc")
+	)
+	(label "ECHO"
+		(at 22.86 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3deee0b-fa6d-467c-a84b-9cf51a1d1abe")
 	)
 	(label "ECHO1"
 		(at 88.9 80.01 0)
@@ -3956,7 +4882,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 88.9 31.75 0)
+		(at 152.4 24.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3964,9 +4890,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1d551bd6-09a5-4d25-854f-d08464483229")
-		(property "Reference" "#PWR016"
-			(at 88.9 35.56 0)
+		(uuid "15f313cb-113f-4d34-be47-1484ed44b39d")
+		(property "Reference" "#PWR019"
+			(at 156.21 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,8 +4902,8 @@
 				)
 			)
 		)
-		(property "Value" "3+"
-			(at 87.884 28.194 0)
+		(property "Value" "5+"
+			(at 149.352 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3988,7 +4914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 31.75 0)
+			(at 152.4 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +4925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 31.75 0)
+			(at 152.4 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4010,7 +4936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 31.75 0)
+			(at 152.4 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,12 +4947,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9d6c39b-1bcb-4f38-8179-57fe2e214844")
+			(uuid "c23f98b0-73d2-4d57-ad51-4e389f51fd1b")
 		)
 		(instances
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
-					(reference "#PWR016")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1613b212-ca29-48cf-aec6-e5089d37aa81")
+		(property "Reference" "#PWR024"
+			(at 44.45 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3+"
+			(at 43.18 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db5696e0-f62d-4553-9545-885c841cdb77")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4429,6 +5433,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "265fd22a-319b-45a4-ad80-b4a0b06f7e9c")
+		(property "Reference" "5v"
+			(at 46.99 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5v"
+			(at 47.244 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 52.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f51fe69-dc63-4930-8775-2def0a6cded6")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "5v")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
 		(at 25.4 39.37 180)
 		(unit 1)
@@ -4704,6 +5786,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 184.15 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "310a553c-ce7e-4243-b15b-c3cfc8d3ce1b")
+		(property "Reference" "C7"
+			(at 182.626 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 182.118 71.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 185.1152 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 184.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7174ff0f-965b-4420-b6ad-81e064b8079a")
+		)
+		(pin "2"
+			(uuid "813eb838-8705-4c6a-901e-c3b4375ca249")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_v2.x")
 		(at 41.91 96.52 0)
 		(unit 1)
@@ -4864,6 +6027,160 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "324332b2-4a7c-4db7-9e5b-15cb6e1d2630")
+		(property "Reference" "#PWR036"
+			(at 170.18 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64bedf45-2bfa-4ad8-b387-5827c5daf85b")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 146.05 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35e85827-4418-4d37-a68e-f1d90ed529a7")
+		(property "Reference" "#PWR023"
+			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 146.05 68.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 146.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40286ede-e129-4be9-b4eb-b6f39c4bd760")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5095,6 +6412,87 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a33d8f8-21b7-49ad-9645-149cd74f169d")
+		(property "Reference" "C3"
+			(at 154.94 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.33uF"
+			(at 151.384 70.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 156.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 156.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26a75b30-9524-472c-b782-f86cdf5d8e2e")
+		)
+		(pin "2"
+			(uuid "69182773-51a7-4821-b0f4-0bbe4a502b73")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5644,7 +7042,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 77.47 57.15 0)
+		(at 82.55 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5654,7 +7052,7 @@
 		(dnp no)
 		(uuid "5fb3805b-4bf0-4ead-a79d-e905e1454452")
 		(property "Reference" "#PWR012"
-			(at 77.47 60.96 0)
+			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,7 +7063,7 @@
 			)
 		)
 		(property "Value" "3+"
-			(at 76.2 53.594 0)
+			(at 81.28 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5676,7 +7074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 57.15 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +7085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 57.15 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +7096,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 77.47 57.15 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,6 +7113,83 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60568774-62f4-4ed6-af40-e273ad35b646")
+		(property "Reference" "#PWR038"
+			(at 184.15 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02d9373c-72f2-4ded-91e5-5f74dd8c8306")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5800,7 +7275,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 88.9 35.56 180)
+		(at 92.71 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5810,7 +7285,7 @@
 		(dnp no)
 		(uuid "61b642be-3829-4e13-a33c-2eeaa6ad8702")
 		(property "Reference" "JP2"
-			(at 90.678 35.56 0)
+			(at 92.71 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5821,7 +7296,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 94.234 38.608 0)
+			(at 89.662 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5832,7 +7307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 35.56 0)
+			(at 92.71 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5843,7 +7318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 20.32 0)
+			(at 107.95 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5854,7 +7329,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 88.9 22.86 0)
+			(at 105.41 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5865,7 +7340,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 88.9 17.78 0)
+			(at 110.49 35.56 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5876,7 +7351,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 88.9 15.24 0)
+			(at 113.03 35.56 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5899,6 +7374,83 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65c90768-fe86-4c05-9a52-7c50d8215480")
+		(property "Reference" "#PWR034"
+			(at 161.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78cc8ed1-6bd6-47d8-9094-220d91332456")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6372,7 +7924,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 77.47 62.23 90)
+		(at 76.2 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6382,7 +7934,7 @@
 		(dnp no)
 		(uuid "7dadd42d-6498-415c-b187-92dc48dd4f24")
 		(property "Reference" "JP1"
-			(at 79.248 62.23 90)
+			(at 76.2 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6393,7 +7945,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 98.552 59.182 90)
+			(at 79.248 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6404,7 +7956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 62.23 0)
+			(at 76.2 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,7 +7967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 62.23 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6426,7 +7978,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 90.17 62.23 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6437,7 +7989,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 95.25 62.23 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6448,7 +8000,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 97.79 62.23 0)
+			(at 76.2 81.28 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6471,6 +8023,402 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 92.71 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81243950-febd-40bf-beb2-ce1a78ccf127")
+		(property "Reference" "#PWR017"
+			(at 88.9 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5+"
+			(at 95.25 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a724e99e-185c-48da-826c-c6e397961c4d")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81865947-2231-41df-8c85-e3b19a111cb1")
+		(property "Reference" "#PWR013"
+			(at 69.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5+"
+			(at 68.834 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80ac92f8-5ca1-4af1-adce-8cb12e16889e")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 92.71 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84c9ec77-2941-4a88-b7f2-1ffa78f06f23")
+		(property "Reference" "#PWR016"
+			(at 92.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3+"
+			(at 91.694 26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43bca0ec-a1de-42c3-93d3-486cf4c44644")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "888716d5-05e9-4c06-9b2f-e2879fc6b093")
+		(property "Reference" "C5"
+			(at 177.8 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 177.292 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 179.07 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49de764e-2231-44a3-a0ae-65e2ed41ad29")
+		)
+		(pin "2"
+			(uuid "0d435423-c252-4c6c-9596-d580a39f0a3d")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bcb3651-3cfb-4d42-8a8f-5f4a84ec530c")
+		(property "Reference" "C6"
+			(at 159.766 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 158.496 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 161.29 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf9fcc52-3de6-4922-ae6c-6d83ab2094b3")
+		)
+		(pin "2"
+			(uuid "be390263-cb74-4545-a97c-2e2481f3a004")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6554,8 +8502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 152.4 24.13 90)
+		(lib_id "power:GND")
+		(at 156.21 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6563,9 +8511,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8d8e2f8a-1591-4677-95d1-1e368093f16b")
-		(property "Reference" "#PWR019"
-			(at 156.21 24.13 0)
+		(uuid "8ddfb9b9-6527-40d0-9987-c82240ba9c5d")
+		(property "Reference" "#PWR033"
+			(at 156.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,19 +8523,18 @@
 				)
 			)
 		)
-		(property "Value" "3+"
-			(at 149.86 24.13 90)
+		(property "Value" "GND"
+			(at 156.21 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 24.13 0)
+			(at 156.21 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +8545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 24.13 0)
+			(at 156.21 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,8 +8555,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 152.4 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,12 +8567,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "616cd005-00ee-48c4-80ef-2fbe20ede0cb")
+			(uuid "fd7fdbcc-1765-4ae7-bb85-ebc8e2c7ee3b")
 		)
 		(instances
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
-					(reference "#PWR019")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6703,84 +8650,6 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 83.82 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9efe70bd-7558-4be5-9ba2-f3cc9651b2ba")
-		(property "Reference" "#PWR017"
-			(at 87.63 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5+"
-			(at 81.28 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 83.82 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bf1d705-10a7-4344-8efa-52c704e5ddf9")
-		)
-		(instances
-			(project "MINISUMO_CAR"
-				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7172,7 +9041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 151.892 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -7215,6 +9084,244 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c595316e-3277-48ce-874a-2d6f0550a67d")
+		(property "Reference" "#PWR037"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59edc8ba-12da-4f99-871e-ce6519470fdc")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7805_TO220")
+		(at 170.18 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7ae4373-ca4c-40bf-8a90-632a09887cf0")
+		(property "Reference" "U14"
+			(at 170.18 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805_TO220"
+			(at 170.18 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 170.18 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 170.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+			(at 170.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8566ae7f-e06d-4af9-b8fb-75a82d4218f5")
+		)
+		(pin "3"
+			(uuid "04a55bd1-b785-4fb1-9e55-ded6a203962d")
+		)
+		(pin "2"
+			(uuid "2521caf4-3eed-4e03-882c-7546d82e5044")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c939fd63-a6b7-4d4a-95fe-a0d52907bdd5")
+		(property "Reference" "#PWR035"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14d45fef-f9da-4f87-b777-76a3153fa32f")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7371,7 +9478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 163.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7579,7 +9686,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 82.55 62.23 270)
+		(at 190.5 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7587,9 +9694,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f70f68bd-5f35-4c08-9475-3494d013bba9")
-		(property "Reference" "#PWR013"
-			(at 78.74 62.23 0)
+		(uuid "fb4d70b5-510f-4a36-8673-ce2c4a3cbcdf")
+		(property "Reference" "#PWR022"
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,7 +9707,7 @@
 			)
 		)
 		(property "Value" "5+"
-			(at 85.598 62.23 90)
+			(at 189.23 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7611,7 +9718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 62.23 0)
+			(at 190.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7622,7 +9729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 62.23 0)
+			(at 190.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,7 +9740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 82.55 62.23 0)
+			(at 190.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,12 +9751,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0c4e4f3-1fdd-47a2-8e9c-a17e71914b8a")
+			(uuid "cfe8d623-899a-4c96-bb73-3cfe8fd468ad")
 		)
 		(instances
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7728,6 +9835,88 @@
 			(project "MINISUMO_CAR"
 				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
 					(reference "PWM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 151.13 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd28a8d8-5f5f-450c-a8de-917afdb32298")
+		(property "Reference" "C4"
+			(at 150.114 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uf"
+			(at 154.94 76.5809 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 152.0952 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 151.13 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3135175c-2b6b-4ff4-b829-d7e46b27e354")
+		)
+		(pin "2"
+			(uuid "9e27777a-e8ad-4b6a-8e2b-3d5565e66198")
+		)
+		(instances
+			(project "MINISUMO_CAR"
+				(path "/8ebb0e5d-7304-4ece-a75a-2532d862304f"
+					(reference "C4")
 					(unit 1)
 				)
 			)
